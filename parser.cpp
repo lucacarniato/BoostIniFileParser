@@ -2,8 +2,6 @@
 A ini file parser based on boost libraries. It creates a tree structure and parses the ini file.
 prop_get templated function does the work of extracting the numbers(integer, float or double) from the strings
 using c++11 regular expression functionality.
-It does the work of properties.f90 and treestruct.f90 (about 2700 lines of code) in just 55 lines of code.
-Morover does not have the limitation of fixed maximum string size.
 */
 
 #include <boost/property_tree/ini_parser.hpp>
