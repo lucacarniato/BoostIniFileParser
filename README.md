@@ -1,0 +1,1 @@
+A ini file parser based on boost libraries. It creates a tree structure and parses the ini file. prop_get templated function does the work of extracting the numbers(integer, floats or doubles) from the strings using c++11 regular expression functionality.
